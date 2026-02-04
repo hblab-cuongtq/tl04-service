@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/service")
+@RequestMapping("/service-b/service")
 class ServiceApi {
     @GetMapping
     fun connect(): ResponseEntity<String> = ResponseEntity.ok().body("connected service successfully")
